@@ -1,0 +1,121 @@
+/* Octofit Tracker Custom Styles */
+
+body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1565c0;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #e3f2fd !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: #ffffff;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  color: #ffffff;
+  border-radius: 10px 10px 0 0 !important;
+  border-bottom: none;
+}
+
+.card-title {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table thead th {
+  background: linear-gradient(90deg, #1565c0 0%, #1976d2 100%) !important;
+  color: #ffffff !important;
+  border: none;
+  font-weight: 600;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+.table tbody tr:hover {
+  background-color: #e3f2fd;
+}
+
+.table td {
+  color: #424242;
+  border-color: #e0e0e0;
+}
+
+.btn {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1976d2 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1565c0;
+  font-weight: 600;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 30px !important;
+  }
+
+  .card {
+    margin: 10px;
+  }
+}
